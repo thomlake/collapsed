@@ -74,7 +74,7 @@ observed = collapsed.DirCat(n_states, n_symbols, a_B)
 model = collapsed.HMM(latent, observed)
 ```
 
-At this point things might seem a little fishy. `pi, A, B` are the initial, transition and emission parameters respectively, while `a_pi, a_A, a_B` parameters are hyper-parameters, so why is the usage the same?
+At this point things might seem a little fishy. `pi, A, B` are the initial, transition and emission parameters respectively, while `a_pi, a_A, a_B` are hyper-parameters, so why is the usage the same?
 In short, because collapsed works with compound distributions, the difference between actual observations and hyper-parameters gets blurry. 
 
 In fact what we passed to `collapsed.HMM` in both cases *were* hyper-parameters.
