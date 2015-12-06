@@ -40,7 +40,9 @@ It is at least 2x faster than normal EM (no backward smoothing), and has been fo
 If you want a more global search over parameters, don't want to worry about initialization and random restarts, or are just more comfortable with a Bayesian approach, use the block collapsed Gibbs sampling.
 
 ## Usage
-We'll begin with the classic trick coin. There are two coins. One is fair and the other always comes up tails (we'll represent heads and tails by 0 and 1 respectively). 
+As an example we'll use the classic trick coin. 
+There are two coins. 
+One is fair and the other always comes up tails (we'll represent heads and tails by 0 and 1 respectively). 
 Let's build a trick coin and sample a sequence of outcomes.
 
 ```python
