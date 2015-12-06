@@ -131,7 +131,7 @@ for t in range(len(y_true)):
 
 I get something like the following, which looks pretty good.
 
-![Trick Coin Image](https://github.com/thomlake/collapsed/blob/master/collapsed/examples/trick_coin/trick_coin_states.png?raw=true)
+![Trick Coin Image](https://raw.githubusercontent.com/thomlake/collapsed/master/examples/trick_coin/trick_coin_states.png)
 
 
 #### References
