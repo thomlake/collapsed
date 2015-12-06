@@ -6,6 +6,6 @@ setup(
     author='tllake',
     author_email='thom.l.lake@gmail.com',
     packages=['collapsed', 'collapsed.emission'],
-    description='Collapsed Gibbs sampling for Bayesian Networks with discrete latent variables.',
-    #long_description=open('README.md').read(),
+    description='Bayesian Hidden Markov Models and their Mixtures for Python.',
+    long_description=open('README.md').read(),
 )
